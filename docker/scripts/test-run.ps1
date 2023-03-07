@@ -1,3 +1,5 @@
+#! /usr/local/bin/PowerShell
+
 [cmdletbinding(DefaultParameterSetName='container')]
 
 param (
