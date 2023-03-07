@@ -1,1 +1,1 @@
-docker build -t nodeweb .
+docker build -t nodeweb ./docker
