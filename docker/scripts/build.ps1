@@ -1,1 +1,1 @@
-docker build -t node:1.0 .
+docker build -t nodeweb .

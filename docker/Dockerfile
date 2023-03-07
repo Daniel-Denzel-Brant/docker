@@ -1,10 +1,11 @@
 FROM node:19-alpine
- 
-WORKDIR /app/
 
 COPY package.json /app/
 COPY src /app/
 
-RUN npm install
+WORKDIR /app/
 
-CMD ["node", "server.js"]
+RUN npm install express
+RUN npm install -g npm@9.6.0
+
+CMD node server.js

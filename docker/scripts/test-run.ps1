@@ -3,7 +3,7 @@
 param (
 	[Parameter(Mandatory = $true)]
 	[string]$exec,
-    [string]$name='node'	
+    [string]$name='nodeweb'	
 )
 function DockerRun {
     docker run -d -p 3000:3000 --name $name $name;
