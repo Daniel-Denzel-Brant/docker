@@ -1,5 +1,4 @@
-# Docker Images
-Image repository:
+# Docker Images Repository
 
 # nodeserver
 Basic Node Web Image for testing
