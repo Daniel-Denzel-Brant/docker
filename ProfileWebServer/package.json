@@ -8,7 +8,13 @@
     "start": "node index"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "carousel": "^0.0.3",
     "express": "^4.18.2",
-    "serve-favicon": "^2.5.0"
-  }
+    "serve-favicon": "^2.5.0",
+    "slide": "^1.1.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -5,7 +5,6 @@ COPY src /app/
 
 WORKDIR /app/
 
-RUN npm install express
-RUN npm install -g npm@9.6.0
+RUN npm install
 
 CMD npm start

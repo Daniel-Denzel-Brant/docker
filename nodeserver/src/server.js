@@ -1,10 +1,5 @@
-const express = require('express');
-const app = express();
+const hostname = '0.0.0.0'
 
-app.get('/status', (req,res)=>{
-     res.send("Welcome!"); 
- });
-
-app.listen(3000, function () {
-    console.log("app listening on port 3000");
+app.listen(3000, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
 });

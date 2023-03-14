@@ -4,6 +4,7 @@ COPY package.json /app/
 COPY index.js /app/
 COPY favicon.ico /app/
 COPY public /app/public
+COPY DanielWebServerFiles.zip /app/
 
 WORKDIR /app/
 
